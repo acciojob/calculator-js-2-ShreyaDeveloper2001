@@ -17,7 +17,7 @@ buttons.forEach(button => {
         } else if (buttonText === 'C') {
             // Clear the display
             display.value = " ";
-        } else if (buttonText === '<--') {
+        } else if (buttonText === 'Back') {
             // Remove the last character
             display.value = display.value.slice(0, -1);
         } else {
